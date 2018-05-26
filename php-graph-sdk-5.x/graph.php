@@ -11,6 +11,7 @@ use Facebook\FacebookRedirectLoginHelper;
 $api_key = '2099205980363929';
 $api_secret = 'f8027b5cee91e363086b4e73c228d729';
 $redirect_login_url = 'https://ashdemoapp.herokuapp.com/login.php';
+echo "here";die;
 // initialize your app using your key and secret
 FacebookSession::setDefaultApplication($api_key, $api_secret);
  

@@ -12,6 +12,7 @@ FacebookSession::setDefaultApplication('2099205980363929','f8027b5cee91e363086b4
 //   FacebookCanvasLoginHelper
 //   FacebookJavaScriptLoginHelper
 // or create a FacebookSession with a valid access token:
+echo "here";die;
 $session = new FacebookSession('abc');
 
 // Get the GraphUser object for the current user:

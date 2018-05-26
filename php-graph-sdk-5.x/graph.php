@@ -1,5 +1,4 @@
 <?php
-echo "here";die;
 session_start();
  
 require_once 'vendor/autoload.php';

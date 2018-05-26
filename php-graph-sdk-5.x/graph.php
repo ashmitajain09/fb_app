@@ -9,11 +9,13 @@ $fb = new Facebook\Facebook([
   'default_graph_version' => 'v2.10',
 ]);
 try {
+  echo "in";
   $me = (new FacebookRequest(
     $session, 'GET', '/me'
   ))->execute()->getGraphObject(GraphUser::className());
   echo $me->getName();
 } catch (\Exception $e) {
+  echo "here";
   // Some other error occurred
 }
   

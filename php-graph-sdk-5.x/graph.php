@@ -1,6 +1,6 @@
 <?php
 session_start();
- 
+
 require_once 'vendor/autoload.php';
 use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
@@ -11,7 +11,7 @@ use Facebook\FacebookRedirectLoginHelper;
 $api_key = '2099205980363929';
 $api_secret = 'f8027b5cee91e363086b4e73c228d729';
 $redirect_login_url = 'https://ashdemoapp.herokuapp.com/login.php';
-/ initialize your app using your key and secret
+// initialize your app using your key and secret
 FacebookSession::setDefaultApplication($api_key, $api_secret);
  
 // create a helper opject which is needed to create a login URL

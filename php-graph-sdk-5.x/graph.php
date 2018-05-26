@@ -1,4 +1,5 @@
 <?php
+require_once( 'vendor/autoload.php' );
 
 use Facebook\FacebookSession;
 use Facebook\FacebookRequest;
